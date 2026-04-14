@@ -526,7 +526,7 @@ st.markdown(f"""
 # ===================== FIXED HEADER NOTICES =====================
 st.info(t('Cập nhật Dữ liệu (Upload Mode): Toàn bộ dữ liệu tài chính được nhập trực tiếp từ file Excel do người dùng cung cấp. Dữ liệu Demo (31 mã VN30) được chốt cố định tại thời điểm tải snapshot nhằm phục vụ mục đích minh họa.'))
 st.warning(t('DỰ ÁN CÁ NHÂN (PORTFOLIO PROJECT): Công cụ DCF Valuation này là một dự án Mã nguồn mở mang tính chất Học thuật & Giáo dục (Data Science & Financial Modeling Portfolio). Tuyên bố miễn trừ trách nhiệm: Các kết quả định giá trên công cụ này chỉ mang tính chất tham khảo, mô phỏng học thuật và không phải là lời khuyên đầu tư tài chính. Nguồn dữ liệu thô: Vnstock.'))
-st.success(f"👉 **{t('Nếu bạn muốn xem thêm dự án khác hãy')} [{t('nhấp vào đây')}](https://portfolio-gilt-sigma-43.vercel.app)**")
+st.success(f"👉 **{t('Nếu bạn muốn xem thêm dự án khác hãy')} [{t('nhấp vào đây')}](https://portfolio-394g.vercel.app)**")
 
 if data is None or not data.get('valid', False):
     st.warning(t("Chưa có dữ liệu. Vui lòng upload file Excel hoặc chọn dữ liệu mẫu."))
